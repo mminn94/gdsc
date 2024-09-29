@@ -28,7 +28,7 @@
     9. setting.py 앱 등록 = 'questions.app.QuestionsConfig' 입력
     10. urls.py = from^questions^import^views 추가 / path('questions/',views.index), 추가
     11. views.py = def^index(request): render(request,'index.html') 추가
-    12. templates 만들기 = <h1>~~~~~</h1>
+    12. templates 만들기 = "<h1>~~~~~</h1>"
 
 - ** 명령어 요약 **
     - cd (change directory)
